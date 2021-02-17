@@ -1,4 +1,12 @@
-export const Characters = [
+import {CONSTANTS} from './Constants';
+
+const {SPACER} = CONSTANTS;
+export interface ICharacters {
+  ro: string;
+  jp: string;
+}
+
+export const Characters: ICharacters[] = [
   {ro: 'a', jp: 'あ'},
   {ro: 'i', jp: 'い'},
   {ro: 'u', jp: 'う'},
@@ -35,7 +43,9 @@ export const Characters = [
   {ro: 'me', jp: 'め'},
   {ro: 'mo', jp: 'も'},
   {ro: 'ya', jp: 'や'},
+  {ro: SPACER, jp: SPACER},
   {ro: 'yu', jp: 'ゆ'},
+  {ro: SPACER, jp: SPACER},
   {ro: 'yo', jp: 'よ'},
   {ro: 'ra', jp: 'ら'},
   {ro: 'ri', jp: 'り'},
@@ -44,6 +54,7 @@ export const Characters = [
   {ro: 'ro', jp: 'ろ'},
   {ro: 'wa', jp: 'わ'},
   {ro: 'wi', jp: 'ゐ'},
+  {ro: SPACER, jp: SPACER},
   {ro: 'we', jp: 'ゑ'},
   {ro: 'wo', jp: 'を'},
   {ro: 'n', jp: 'ん'},
