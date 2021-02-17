@@ -1,24 +1,15 @@
-import _ from 'lodash/fp';
 import React from 'react';
-import {SafeAreaView, ScrollView, Text, View} from 'react-native';
+import {SafeAreaView, View} from 'react-native';
 
-import {Characters, ICharacters} from './Characters';
+import CharacterTable from './CharacterTable';
+import Title from './Title';
 
 const Home = () => {
-  const title = 'Hiragana Cards';
-
-  const ListofChars = _.map((value: ICharacters) => (
-    <View>
-      <Text>{value.ro}</Text>
-      <Text>{value.jp}</Text>
-    </View>
-  ))(Characters);
-
   return (
     <SafeAreaView>
       <View>
-        <Text>{title}</Text>
-        <ScrollView>{ListofChars}</ScrollView>
+        <Title title={'Hiragana Cards'} />
+        <CharacterTable />
       </View>
     </SafeAreaView>
   );
