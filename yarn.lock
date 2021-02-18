@@ -1178,7 +1178,15 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/react-native@^0.63.2":
+"@types/react-native-flip-card@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@types/react-native-flip-card/-/react-native-flip-card-3.5.0.tgz#db2197b5ba541ba92a0c79419bb526e3688b8a02"
+  integrity sha512-LpAW10dWJbS6TIi7wKvG3zi5MVvL3zt1MFoAqQVclNM/21oWAcePxd9lxE2UZuQV71Snt5HmUHKgTkxGj49VYQ==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+
+"@types/react-native@*", "@types/react-native@^0.63.2":
   version "0.63.49"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.63.49.tgz"
   integrity sha512-ivTn2n9xsmlwSO1GygkwEMjkrSDqPAJVhbhsl3EffGtG6zWPaJ+AJVImPoBZN1VY8GItGPPlLGEb0i6LGb83VA==
@@ -5339,7 +5347,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5393,6 +5401,13 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-native-flip-card@^3.5.6:
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/react-native-flip-card/-/react-native-flip-card-3.5.6.tgz#de26f0285aa6f8ee10bb4b696c60c6fb43bb580f"
+  integrity sha512-lqsjl4vF5DyHD7mjBJpyBoaLKVxalzoKfCosE63QF+TaCF9MKdJrxmGFQj/i64GDiMJqeS/5sNDcICUXtgFsVA==
+  dependencies:
+    prop-types "^15.5.10"
 
 react-native@0.63.4:
   version "0.63.4"

@@ -1,12 +1,20 @@
 import _ from 'lodash/fp';
 import React from 'react';
 import {ScrollView, StyleSheet, View} from 'react-native';
-import Card from './Card';
+import Card, {ICard} from './Card';
 
 import {Characters, ICharacters} from './Characters';
 
-const CharacterTable = () => {
-  const list = _.map((value: ICharacters) => <Card {...value} />)(Characters);
+interface ICharacterTable extends ICard {}
+
+const CharacterTable = ({setCharacterInView}: ICharacterTable) => {
+  const list = _.map((character: ICharacters) => (
+    <Card
+      key={character.jp}
+      character={character}
+      setCharacterInView={setCharacterInView}
+    />
+  ))(Characters);
 
   return (
     <ScrollView>
@@ -17,10 +25,11 @@ const CharacterTable = () => {
 
 const styles = StyleSheet.create({
   base: {
-    flex: 1,
+    display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'center',
+    paddingHorizontal: 8,
   },
 });
 

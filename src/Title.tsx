@@ -15,12 +15,13 @@ const Title = ({title}: ITitle) => {
 
 const styles = StyleSheet.create({
   base: {
+    color: 'black',
     fontSize: 32,
     fontWeight: 'bold',
-    marginBottom: 32,
+    marginBottom: 8,
     marginTop: 16,
-    textAlign: 'center',
-    textTransform: 'uppercase',
+    marginLeft: 44,
+    textAlign: 'left',
   },
 });
 
