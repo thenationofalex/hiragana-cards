@@ -7,4 +7,4 @@
 - [Lodash/fp](https://github.com/lodash/lodash/wiki/FP-Guide)
 - [React Native Flip Cards](https://github.com/moschan/react-native-flip-card)
 
-![](https://www.thenationofalex.com/hiragana-demo.gif)
+<img src="https://www.thenationofalex.com/hiragana-demo.gif" width="350" />
