@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Dimensions,
-  ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -14,8 +13,6 @@ import {CONSTANTS} from './Constants';
 const {height: screenHeight} = Dimensions.get('screen');
 const {SPACER} = CONSTANTS;
 const cardSize = Math.round(screenHeight / 16);
-const cardHeight = cardSize;
-const cardWidth = cardSize;
 
 export interface ICard {
   setCharacterInView: (arg0: ICharacters) => {};
@@ -25,9 +22,20 @@ export interface ICard {
 const Card = ({character, setCharacterInView}: ICard) => {
   const {ro, jp} = character;
   const displaySpacer = ro === SPACER;
+
+  const setChar = (char: ICharacters) => {
+    if (!displaySpacer) {
+      setCharacterInView(char);
+    }
+  };
+
+  const cardStyle = displaySpacer
+    ? [styles.card, styles.cardNoBorder]
+    : styles.card;
+
   return (
-    <TouchableOpacity onPress={() => setCharacterInView(character)}>
-      <View style={styles.card} key={jp}>
+    <TouchableOpacity onPress={() => setChar(character)}>
+      <View style={cardStyle} key={jp}>
         <Text style={[styles.cardText, styles.cardTextTop]}>
           {displaySpacer ? null : jp}
         </Text>
@@ -39,22 +47,27 @@ const Card = ({character, setCharacterInView}: ICard) => {
 
 const styles = StyleSheet.create({
   card: {
-    height: cardHeight,
-    width: cardWidth,
-    display: 'flex',
-    justifyContent: 'center',
+    backgroundColor: 'white',
+    borderColor: 'orange',
     borderRadius: 150 / 2,
-    overflow: 'hidden',
     borderWidth: 1,
-    borderColor: 'red',
+    display: 'flex',
+    height: cardSize,
+    justifyContent: 'center',
     margin: 6,
+    overflow: 'hidden',
+    width: cardSize,
+  },
+  cardNoBorder: {
+    borderColor: 'transparent',
+    borderWidth: 0,
   },
   cardText: {
-    textAlign: 'center',
     fontStyle: 'italic',
+    textAlign: 'center',
   },
   cardTextTop: {
-    color: 'red',
+    color: 'orange',
     marginBottom: 6,
   },
 });

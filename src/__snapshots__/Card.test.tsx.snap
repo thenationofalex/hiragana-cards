@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderColor": "red",
+        "borderRadius": 75,
+        "borderWidth": 1,
+        "display": "flex",
+        "height": 83,
+        "justifyContent": "center",
+        "margin": 6,
+        "overflow": "hidden",
+        "width": 83,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontStyle": "italic",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "red",
+            "marginBottom": 6,
+          },
+        ]
+      }
+    >
+      あ
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontStyle": "italic",
+          "textAlign": "center",
+        }
+      }
+    >
+      a
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Card Renders spacer correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderColor": "red",
+        "borderRadius": 75,
+        "borderWidth": 1,
+        "display": "flex",
+        "height": 83,
+        "justifyContent": "center",
+        "margin": 6,
+        "overflow": "hidden",
+        "width": 83,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontStyle": "italic",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "red",
+            "marginBottom": 6,
+          },
+        ]
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontStyle": "italic",
+          "textAlign": "center",
+        }
+      }
+    />
+  </View>
+</View>
+`;

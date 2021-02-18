@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1613652218206" clover="3.2.0">
+  <project timestamp="1613652218206" name="All files">
+    <metrics statements="36" coveredstatements="31" conditionals="8" coveredconditionals="7" methods="11" coveredmethods="7" elements="55" coveredelements="45" complexity="0" loc="36" ncloc="36" packages="2" files="8" classes="8"/>
+    <package name="HiraganaCards">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="/Users/alexbest/projects/HiraganaCards/App.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="HiraganaCards.src">
+      <metrics statements="34" coveredstatements="29" conditionals="8" coveredconditionals="7" methods="10" coveredmethods="6"/>
+      <file name="Card.tsx" path="/Users/alexbest/projects/HiraganaCards/src/Card.tsx">
+        <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="1"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="53" type="stmt"/>
+        <line num="24" count="53" type="stmt"/>
+        <line num="25" count="53" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+      </file>
+      <file name="CharacterTable.tsx" path="/Users/alexbest/projects/HiraganaCards/src/CharacterTable.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="51" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+      </file>
+      <file name="Characters.ts" path="/Users/alexbest/projects/HiraganaCards/src/Characters.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+      <file name="Constants.ts" path="/Users/alexbest/projects/HiraganaCards/src/Constants.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+      <file name="Home.tsx" path="/Users/alexbest/projects/HiraganaCards/src/Home.tsx">
+        <metrics statements="8" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+      </file>
+      <file name="LargeCard.tsx" path="/Users/alexbest/projects/HiraganaCards/src/LargeCard.tsx">
+        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+      </file>
+      <file name="Title.tsx" path="/Users/alexbest/projects/HiraganaCards/src/Title.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

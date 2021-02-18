@@ -49,7 +49,7 @@ const LargeCard = ({char, setTableInView}: ILargeCard) => (
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'red',
+    backgroundColor: 'orange',
     display: 'flex',
     height: screenHeight,
   },

@@ -19,7 +19,8 @@ const Home = () => {
     <SafeAreaView style={!tableInView && styles.largeCardContainer}>
       {tableInView ? (
         <View style={styles.home}>
-          <Title title={'👹 Hiragana 👹'} />
+          <Title title={'🍊 Hiragana'} />
+          {/* @ts-ignore */}
           <CharacterTable setCharacterInView={setCharacterInView} />
         </View>
       ) : (
@@ -31,13 +32,14 @@ const Home = () => {
 
 const styles = StyleSheet.create({
   largeCardContainer: {
-    backgroundColor: 'red',
+    backgroundColor: 'orange',
   },
   home: {
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'column',
     height: '100%',
+    backgroundColor: 'white',
   },
 });
 

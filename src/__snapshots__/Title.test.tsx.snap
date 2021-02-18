@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "color": "black",
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "marginBottom": 8,
+        "marginLeft": 44,
+        "marginTop": 16,
+        "textAlign": "left",
+      }
+    }
+  >
+    Title
+  </Text>
+</View>
+`;

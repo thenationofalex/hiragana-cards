@@ -1,0 +1,3017 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterTable Renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "justifyContent": "center",
+          "paddingHorizontal": 8,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            あ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            a
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            い
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            i
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            う
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            u
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            え
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            e
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            お
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            o
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            か
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ka
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            き
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ki
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            く
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ku
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            け
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ke
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            こ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ko
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            さ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            sa
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            し
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            shi
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            す
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            su
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            せ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            se
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            そ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            so
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            た
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ta
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ち
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            chi
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            つ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            tsu
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            て
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            te
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            と
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            to
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            な
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            na
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            に
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ni
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ぬ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            nu
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ね
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ne
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            の
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            no
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            は
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ha
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ひ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            hi
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ふ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            fu
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            へ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            he
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ほ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ho
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ま
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ma
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            み
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            mi
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            む
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            mu
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            め
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            me
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            も
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            mo
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            や
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ya
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ゆ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            yu
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            よ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            yo
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ら
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ra
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            り
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ri
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            る
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ru
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            れ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            re
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ろ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            ro
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            わ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            wa
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ゐ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            wi
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ゑ
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            we
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            を
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            wo
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "red",
+              "borderRadius": 75,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 83,
+              "justifyContent": "center",
+              "margin": 6,
+              "overflow": "hidden",
+              "width": 83,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontStyle": "italic",
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "red",
+                  "marginBottom": 6,
+                },
+              ]
+            }
+          >
+            ん
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontStyle": "italic",
+                "textAlign": "center",
+              }
+            }
+          >
+            n
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
