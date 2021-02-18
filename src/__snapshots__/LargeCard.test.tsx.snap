@@ -16,6 +16,33 @@ exports[`LargeCard Renders correctly 1`] = `
     <View
       style={
         Object {
+          "opacity": 0.5,
+          "position": "absolute",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Object {
+              "color": "white",
+              "fontWeight": "bold",
+              "marginTop": 32,
+            },
+          ]
+        }
+      >
+        Tap character to flip card
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
           "display": "flex",
           "height": 1067.2,
           "width": 750,
