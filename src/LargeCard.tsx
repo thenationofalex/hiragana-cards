@@ -10,22 +10,30 @@ import FlipCard from 'react-native-flip-card';
 import React from 'react';
 
 import {ICharacters} from './Characters';
-import {hasIn} from 'lodash';
 
 interface ILargeCard {
   char: ICharacters;
   setTableInView: (arg0: boolean) => void;
+  setNextCharacterInView: () => void;
 }
 
 const {height: screenHeight, width: screenWidth} = Dimensions.get('screen');
 
-const LargeCard = ({char, setTableInView}: ILargeCard) => {
+const LargeCard = ({
+  char,
+  setTableInView,
+  setNextCharacterInView,
+}: ILargeCard) => {
+  const tapTextStyle = [styles.allText, styles.tapTextStyles];
   const combinedCardTextStyle = [styles.allText, styles.cardText];
   const cardActionTextStyle = [styles.allText, styles.cardActionText];
 
   return (
     <SafeAreaView>
       <View style={styles.container}>
+        <View style={styles.tapStyle}>
+          <Text style={tapTextStyle}>Tap character to flip card</Text>
+        </View>
         <View style={styles.cardContainer}>
           <FlipCard>
             <View style={styles.card}>
@@ -43,7 +51,7 @@ const LargeCard = ({char, setTableInView}: ILargeCard) => {
           <TouchableOpacity onPress={() => setTableInView(true)}>
             <Text style={cardActionTextStyle}>ALL CARDS</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => setTableInView(true)}>
+          <TouchableOpacity onPress={() => setNextCharacterInView()}>
             <Text style={cardActionTextStyle}>NEXT CARD</Text>
           </TouchableOpacity>
         </View>
@@ -86,16 +94,27 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   cardActionText: {
-    color: 'white',
-    fontWeight: 'bold',
-    fontSize: 18,
-    marginHorizontal: 20,
-    borderWidth: 1,
-    padding: 10,
+    backgroundColor: 'rgba(0, 0, 0, 0.1)',
     borderColor: 'transparent',
     borderRadius: 10,
+    borderWidth: 1,
+    color: 'white',
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginHorizontal: 20,
     overflow: 'hidden',
-    backgroundColor: 'rgba(0, 0, 0, 0.1)',
+    padding: 10,
+  },
+  tapStyle: {
+    position: 'absolute',
+    textAlign: 'center',
+    opacity: 0.5,
+    width: '100%',
+  },
+  tapTextStyles: {
+    color: 'white',
+    fontWeight: 'bold',
+    marginTop: 32,
   },
 });
 
