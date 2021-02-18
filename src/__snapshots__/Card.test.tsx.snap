@@ -20,7 +20,8 @@ exports[`Card Renders correctly 1`] = `
   <View
     style={
       Object {
-        "borderColor": "red",
+        "backgroundColor": "white",
+        "borderColor": "orange",
         "borderRadius": 75,
         "borderWidth": 1,
         "display": "flex",
@@ -40,7 +41,7 @@ exports[`Card Renders correctly 1`] = `
             "textAlign": "center",
           },
           Object {
-            "color": "red",
+            "color": "orange",
             "marginBottom": 6,
           },
         ]
@@ -81,17 +82,24 @@ exports[`Card Renders spacer correctly 1`] = `
 >
   <View
     style={
-      Object {
-        "borderColor": "red",
-        "borderRadius": 75,
-        "borderWidth": 1,
-        "display": "flex",
-        "height": 83,
-        "justifyContent": "center",
-        "margin": 6,
-        "overflow": "hidden",
-        "width": 83,
-      }
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "orange",
+          "borderRadius": 75,
+          "borderWidth": 1,
+          "display": "flex",
+          "height": 83,
+          "justifyContent": "center",
+          "margin": 6,
+          "overflow": "hidden",
+          "width": 83,
+        },
+        Object {
+          "borderColor": "transparent",
+          "borderWidth": 0,
+        },
+      ]
     }
   >
     <Text
@@ -102,7 +110,7 @@ exports[`Card Renders spacer correctly 1`] = `
             "textAlign": "center",
           },
           Object {
-            "color": "red",
+            "color": "orange",
             "marginBottom": 6,
           },
         ]
