@@ -10,6 +10,7 @@ import FlipCard from 'react-native-flip-card';
 import React from 'react';
 
 import {ICharacters} from './Characters';
+import {hasIn} from 'lodash';
 
 interface ILargeCard {
   char: ICharacters;
@@ -18,34 +19,38 @@ interface ILargeCard {
 
 const {height: screenHeight, width: screenWidth} = Dimensions.get('screen');
 
-const LargeCard = ({char, setTableInView}: ILargeCard) => (
-  <SafeAreaView>
-    <View style={styles.container}>
-      <View style={styles.cardContainer}>
-        <FlipCard>
-          <View style={styles.card}>
-            <Text style={[styles.allText, styles.cardText]}>{char.jp}</Text>
-          </View>
-          <View style={styles.card}>
-            <Text
-              style={[styles.allText, styles.cardText, styles.cardTectSmall]}>
-              {char.jp}
-            </Text>
-            <Text style={[styles.allText, styles.cardText]}>{char.ro}</Text>
-          </View>
-        </FlipCard>
+const LargeCard = ({char, setTableInView}: ILargeCard) => {
+  const combinedCardTextStyle = [styles.allText, styles.cardText];
+  const cardActionTextStyle = [styles.allText, styles.cardActionText];
+
+  return (
+    <SafeAreaView>
+      <View style={styles.container}>
+        <View style={styles.cardContainer}>
+          <FlipCard>
+            <View style={styles.card}>
+              <Text style={combinedCardTextStyle}>{char.jp}</Text>
+            </View>
+            <View style={styles.card}>
+              <Text style={[...combinedCardTextStyle, styles.cardTextSmall]}>
+                {char.jp}
+              </Text>
+              <Text style={combinedCardTextStyle}>{char.ro}</Text>
+            </View>
+          </FlipCard>
+        </View>
+        <View style={styles.cardActionBar}>
+          <TouchableOpacity onPress={() => setTableInView(true)}>
+            <Text style={cardActionTextStyle}>ALL CARDS</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => setTableInView(true)}>
+            <Text style={cardActionTextStyle}>NEXT CARD</Text>
+          </TouchableOpacity>
+        </View>
       </View>
-      <View>
-        <TouchableOpacity onPress={() => setTableInView(true)}>
-          <Text style={styles.allText}>All cards</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => setTableInView(true)}>
-          <Text style={styles.allText}>Next card</Text>
-        </TouchableOpacity>
-      </View>
-    </View>
-  </SafeAreaView>
-);
+    </SafeAreaView>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -68,12 +73,29 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: screenWidth / 2,
   },
-  cardTectSmall: {
+  cardTextSmall: {
     fontSize: screenWidth / 8,
     opacity: 0.5,
   },
   allText: {
     textAlign: 'center',
+  },
+  cardActionBar: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  cardActionText: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 18,
+    marginHorizontal: 20,
+    borderWidth: 1,
+    padding: 10,
+    borderColor: 'transparent',
+    borderRadius: 10,
+    overflow: 'hidden',
+    backgroundColor: 'rgba(0, 0, 0, 0.1)',
   },
 });
 
