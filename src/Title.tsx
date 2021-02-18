@@ -5,13 +5,11 @@ interface ITitle {
   title: string;
 }
 
-const Title = ({title}: ITitle) => {
-  return (
-    <View>
-      <Text style={styles.base}>{title}</Text>
-    </View>
-  );
-};
+const Title = ({title}: ITitle) => (
+  <View>
+    <Text style={styles.base}>{title}</Text>
+  </View>
+);
 
 const styles = StyleSheet.create({
   base: {

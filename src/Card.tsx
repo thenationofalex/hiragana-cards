@@ -6,8 +6,8 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import {ICharacters} from './Characters';
 
+import {ICharacters} from './Characters';
 import {CONSTANTS} from './Constants';
 
 const {height: screenHeight} = Dimensions.get('screen');

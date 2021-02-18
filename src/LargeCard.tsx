@@ -13,8 +13,8 @@ import {ICharacters} from './Characters';
 
 interface ILargeCard {
   char: ICharacters;
-  setTableInView: (arg0: boolean) => void;
   setNextCharacterInView: () => void;
+  setTableInView: (arg0: boolean) => void;
 }
 
 const {height: screenHeight, width: screenWidth} = Dimensions.get('screen');
@@ -24,9 +24,9 @@ const LargeCard = ({
   setTableInView,
   setNextCharacterInView,
 }: ILargeCard) => {
-  const tapTextStyle = [styles.allText, styles.tapTextStyles];
-  const combinedCardTextStyle = [styles.allText, styles.cardText];
   const cardActionTextStyle = [styles.allText, styles.cardActionText];
+  const combinedCardTextStyle = [styles.allText, styles.cardText];
+  const tapTextStyle = [styles.allText, styles.tapTextStyles];
 
   return (
     <SafeAreaView>

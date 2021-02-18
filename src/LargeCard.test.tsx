@@ -2,11 +2,13 @@ import 'react-native';
 import React from 'react';
 import {render} from '@testing-library/react-native';
 
+import {Characters} from './Characters';
 import LargeCard from './LargeCard';
 
 const props = {
+  char: Characters[0],
+  setNextCharacterInView: () => jest.fn(),
   setTableInView: () => jest.fn(),
-  char: {ro: 'a', jp: 'あ'},
 };
 
 describe('LargeCard', () => {
