@@ -8,6 +8,8 @@ import {CONSTANTS} from '../Constants';
 import LargeCard from '../LargeCard';
 import Title from '../Title';
 
+const {SPACER} = CONSTANTS;
+
 const Home = () => {
   const [tableInView, setTableInView] = useState(false);
   const [char, setChar] = useState(Characters[0]);
@@ -17,16 +19,22 @@ const Home = () => {
     setTableInView(false);
   };
 
-  const setNextCharacterInView = () => {
+  const setNextCharacterInView = (random?: boolean) => {
     let currentIdx = _.findIndex((value: ICharacters) =>
       _.isEqual(value.ro, char.ro),
     )(Characters);
 
     const next = (): ICharacters => {
-      if (Characters[currentIdx + 1].ro === CONSTANTS.SPACER) {
-        return Characters[currentIdx + 2];
+      const charactersWithoutSpacer = _.remove(
+        (value: ICharacters) => value.ro === SPACER,
+      )(Characters);
+
+      if (random) {
+        // @ts-ignore
+        return _.sample(charactersWithoutSpacer);
       }
-      return Characters[currentIdx + 1];
+
+      return charactersWithoutSpacer[currentIdx + 1];
     };
 
     if (currentIdx >= 0 && currentIdx < Characters.length - 1) {

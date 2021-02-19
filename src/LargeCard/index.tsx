@@ -13,7 +13,7 @@ import {ICharacters} from '../Characters';
 
 interface ILargeCard {
   char: ICharacters;
-  setNextCharacterInView: () => void;
+  setNextCharacterInView: (arg0: boolean) => void;
   setTableInView: (arg0: boolean) => void;
 }
 
@@ -51,8 +51,11 @@ const LargeCard = ({
           <TouchableOpacity onPress={() => setTableInView(true)}>
             <Text style={cardActionTextStyle}>ALL CARDS</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => setNextCharacterInView()}>
+          <TouchableOpacity onPress={() => setNextCharacterInView(false)}>
             <Text style={cardActionTextStyle}>NEXT CARD</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => setNextCharacterInView(true)}>
+            <Text style={cardActionTextStyle}>RANDOM CARD</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -91,7 +94,7 @@ const styles = StyleSheet.create({
   cardActionBar: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
   },
   cardActionText: {
     backgroundColor: 'rgba(0, 0, 0, 0.1)',
@@ -99,9 +102,9 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     borderWidth: 1,
     color: 'white',
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: 'bold',
-    marginHorizontal: 20,
+    marginHorizontal: 10,
     overflow: 'hidden',
     padding: 10,
   },
