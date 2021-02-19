@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/thenationofalex/hiragana-cards.svg?branch=master)](https://travis-ci.org/thenationofalex/hiragana-cards)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=thenationofalex_hiragana-cards&metric=alert_status)](https://sonarcloud.io/dashboard?id=thenationofalex_hiragana-cards)
-[![Coverage Status](https://coveralls.io/repos/github/thenationofalex/hiragana-cards/badge.svg?branch=master)](https://coveralls.io/github/thenationofalex/hiragana-cards?branch=master)s
+[![Coverage Status](https://coveralls.io/repos/github/thenationofalex/hiragana-cards/badge.svg?branch=master)](https://coveralls.io/github/thenationofalex/hiragana-cards?branch=master)
 
 #### 🔨 Built with
 
