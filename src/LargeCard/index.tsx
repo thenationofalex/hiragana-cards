@@ -28,6 +28,12 @@ const LargeCard = ({
   const combinedCardTextStyle = [styles.allText, styles.cardText];
   const tapTextStyle = [styles.allText, styles.tapTextStyles];
 
+  const goToCard = (random: boolean): void => {
+    setNextCharacterInView(random);
+  };
+
+  const {jp, ro} = char;
+
   return (
     <SafeAreaView>
       <View style={styles.container}>
@@ -37,13 +43,13 @@ const LargeCard = ({
         <View style={styles.cardContainer}>
           <FlipCard>
             <View style={styles.card}>
-              <Text style={combinedCardTextStyle}>{char.jp}</Text>
+              <Text style={combinedCardTextStyle}>{jp}</Text>
             </View>
             <View style={styles.card}>
               <Text style={[...combinedCardTextStyle, styles.cardTextSmall]}>
-                {char.jp}
+                {jp}
               </Text>
-              <Text style={combinedCardTextStyle}>{char.ro}</Text>
+              <Text style={combinedCardTextStyle}>{ro}</Text>
             </View>
           </FlipCard>
         </View>
@@ -51,10 +57,10 @@ const LargeCard = ({
           <TouchableOpacity onPress={() => setTableInView(true)}>
             <Text style={cardActionTextStyle}>ALL CARDS</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => setNextCharacterInView(false)}>
+          <TouchableOpacity onPress={() => goToCard(false)}>
             <Text style={cardActionTextStyle}>NEXT CARD</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => setNextCharacterInView(true)}>
+          <TouchableOpacity onPress={() => goToCard(true)}>
             <Text style={cardActionTextStyle}>RANDOM CARD</Text>
           </TouchableOpacity>
         </View>
