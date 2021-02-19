@@ -1,9 +1,9 @@
 import _ from 'lodash/fp';
 import React from 'react';
 import {ScrollView, StyleSheet, View} from 'react-native';
-import Card, {ICard} from './Card';
+import Card, {ICard} from '../Cards';
 
-import {Characters, ICharacters} from './Characters';
+import {Characters, ICharacters} from '../Characters';
 
 interface ICharacterTable extends ICard {}
 

@@ -9,7 +9,7 @@ import {
 import FlipCard from 'react-native-flip-card';
 import React from 'react';
 
-import {ICharacters} from './Characters';
+import {ICharacters} from '../Characters';
 
 interface ILargeCard {
   char: ICharacters;

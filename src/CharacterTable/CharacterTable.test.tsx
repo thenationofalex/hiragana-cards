@@ -2,8 +2,8 @@ import 'react-native';
 import React from 'react';
 import {render} from '@testing-library/react-native';
 
-import {Characters} from './Characters';
-import CharacterTable from './CharacterTable';
+import {Characters} from '../Characters';
+import CharacterTable from '.';
 
 const props = {
   setCharacterInView: () => jest.fn(),

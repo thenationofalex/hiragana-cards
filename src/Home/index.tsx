@@ -1,12 +1,12 @@
 import _ from 'lodash/fp';
 import React, {useState} from 'react';
 import {SafeAreaView, StyleSheet, View} from 'react-native';
-import {Characters, ICharacters} from './Characters';
+import {Characters, ICharacters} from '../Characters';
 
-import CharacterTable from './CharacterTable';
-import {CONSTANTS} from './Constants';
-import LargeCard from './LargeCard';
-import Title from './Title';
+import CharacterTable from '../CharacterTable';
+import {CONSTANTS} from '../Constants';
+import LargeCard from '../LargeCard';
+import Title from '../Title';
 
 const Home = () => {
   const [tableInView, setTableInView] = useState(false);

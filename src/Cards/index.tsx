@@ -7,8 +7,8 @@ import {
   View,
 } from 'react-native';
 
-import {ICharacters} from './Characters';
-import {CONSTANTS} from './Constants';
+import {ICharacters} from '../Characters';
+import {CONSTANTS} from '../Constants';
 
 const {height: screenHeight} = Dimensions.get('screen');
 const {SPACER} = CONSTANTS;

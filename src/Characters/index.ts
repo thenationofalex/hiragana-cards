@@ -1,4 +1,4 @@
-import {CONSTANTS} from './Constants';
+import {CONSTANTS} from '../Constants';
 
 const {SPACER} = CONSTANTS;
 export interface ICharacters {

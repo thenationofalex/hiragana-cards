@@ -2,8 +2,8 @@ import 'react-native';
 import React from 'react';
 import {render} from '@testing-library/react-native';
 
-import Card from './Card';
-import {CONSTANTS} from './Constants';
+import Card from '.';
+import {CONSTANTS} from '../Constants';
 
 const props = {
   setCharacterInView: () => jest.fn(),

@@ -4,11 +4,7 @@ import Home from './src/Home';
 declare const global: {HermesInternal: null | {}};
 
 const App = () => {
-  return (
-    <>
-      <Home />
-    </>
-  );
+  return <Home />;
 };
 
 export default App;
