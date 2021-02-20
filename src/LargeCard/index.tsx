@@ -1,3 +1,4 @@
+import _ from 'lodash/fp';
 import {
   Dimensions,
   SafeAreaView,
@@ -5,10 +6,12 @@ import {
   Text,
   TouchableOpacity,
   View,
+  Alert,
 } from 'react-native';
 import FlipCard from 'react-native-flip-card';
-import React from 'react';
+import React, {useState} from 'react';
 
+import {CONSTANTS} from '../Constants';
 import {ICharacters} from '../Characters';
 
 interface ILargeCard {
@@ -18,6 +21,7 @@ interface ILargeCard {
 }
 
 const {height: screenHeight, width: screenWidth} = Dimensions.get('screen');
+const {CARD_BACK, CARD_FRONT} = CONSTANTS;
 
 const LargeCard = ({
   char,
@@ -28,7 +32,15 @@ const LargeCard = ({
   const combinedCardTextStyle = [styles.allText, styles.cardText];
   const tapTextStyle = [styles.allText, styles.tapTextStyles];
 
-  const goToCard = (random: boolean): void => {
+  const [cardFace, setCardFace] = useState(CARD_FRONT);
+  const [resetCardFace, setResetCardFace] = useState(false);
+
+  const goToCard = async (random: boolean): Promise<void> => {
+    if (cardFace === CARD_BACK) {
+      await setCardFace(CARD_FRONT);
+      await setResetCardFace(true);
+    }
+    setResetCardFace(false);
     setNextCharacterInView(random);
   };
 
@@ -41,7 +53,11 @@ const LargeCard = ({
           <Text style={tapTextStyle}>Tap character to flip card</Text>
         </View>
         <View style={styles.cardContainer}>
-          <FlipCard>
+          <FlipCard
+            flip={resetCardFace}
+            onFlipEnd={() =>
+              setCardFace(cardFace === CARD_FRONT ? CARD_BACK : CARD_FRONT)
+            }>
             <View style={styles.card}>
               <Text style={combinedCardTextStyle}>{jp}</Text>
             </View>
