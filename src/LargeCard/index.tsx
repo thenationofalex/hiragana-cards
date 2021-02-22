@@ -6,7 +6,6 @@ import {
   Text,
   TouchableOpacity,
   View,
-  Alert,
 } from 'react-native';
 import FlipCard from 'react-native-flip-card';
 import React, {useState} from 'react';
@@ -36,7 +35,7 @@ const LargeCard = ({
   const [resetCardFace, setResetCardFace] = useState(false);
 
   const goToCard = async (random: boolean): Promise<void> => {
-    if (cardFace === CARD_BACK) {
+    if (_.isEqual(cardFace, CARD_BACK)) {
       await setCardFace(CARD_FRONT);
       await setResetCardFace(true);
     }
